@@ -1,0 +1,16 @@
+[package]
+
+version = "1.0.0"
+title = "TAA - Google Spreadsheet API"
+description="An exploration into using Google Spreadsheet data to objects on the stage"
+readme  = "docs/README.md"
+repository = ""
+category = "Other"
+keywords = ["taa", "google", "spreadsheet", "api", "example"]
+icon = "data/taa-logo.png"
+
+[dependencies]
+"omni.kit.uiapp" = {}
+
+[[python.module]]
+name = "taa.google.spreadsheet.api"
